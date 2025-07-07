@@ -103,7 +103,7 @@
            font-size: 40px;
            width: 80%;
            color: #000000;
-           letter-spacing: 1px;
+           letter-spacing: -1px;
            margin-top: -7px;
            margin-left: 50px;
            padding-left: 40px;
@@ -121,15 +121,46 @@
        }
        section{
         margin-top: 20vh;
-        width: 50%;
-        height: 60px;
+        width: 55%;
+        height: fit-content;
         /* border: 1px solid black; */
         border-radius: 5px;
-        margin-left: 20vh;
+        margin-left: 10vh;
         background-color: #ffe496;
         color: #191a1b;
         background-size: 100% 100%;
+        display: flex;
+        align-items: start;
        }
        .name{
         width: 100%;
+        padding: 10px 10px;
+       }
+       .name img{
+        font-size: 3px;
+       }
+       .name p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color: #191a1b;
+        margin-left: 15px;
+        margin-top: -4vh;
+       }
+       main{
+        margin-top: 20px;
+        margin-left: 50px;
+       }
+       .para{
+        display: flex;
+        /* justify-content: start;
+        align-items: start; */
+       }
+       .para p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13px;
+       }
+       .para a{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13px;
+        color: #191a1b
        }
