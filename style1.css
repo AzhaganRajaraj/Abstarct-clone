@@ -1,0 +1,54 @@
+h1{
+    color: red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 50%;
+    background-color: yellow;
+    padding: 100px;
+    border-left: 10px dotted red;
+    border-radius: 20px 70px 20px 70px;
+    margin-top: 200px;
+
+
+}
+
+.box{
+    width: 70%;
+    height: 200vh;
+    background-color: aqua;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.right{
+    margin-left: 50%;
+}
+
+.sec{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    display: inline-block;
+}
+
+.cont{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.sec1{
+    width: 20%;
+    height: 200px;
+    border: 2px solid black;
+}
