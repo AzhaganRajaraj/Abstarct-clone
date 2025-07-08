@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: aqua;
+            animation-name: move;
+            animation-duration: 10s;
+        }
+        @keyframes move {
+            25%{
+                transform: translate(110px,0px);
+                background-color: blue;
+                border-radius: 50%;
+
+            }
+            50%{
+                transform: translate(110px, 200px);
+                background-color: red;
+                border-radius: 0%;
+                width: 250px;
+            }
+            75%{
+                transform: translate(0px,200px);
+            }
+        }
+
+    </style>
+    </head>
+    <body>
+        <div class="box"></div>
+
+    </body>
+</html>
