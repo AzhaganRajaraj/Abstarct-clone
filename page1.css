@@ -69,7 +69,7 @@
          }
 
          .cont {
-             width: 80%;
+             width: 50%;
              margin-top: 40px;
          }
 
@@ -250,14 +250,17 @@
                  display: block;
              }
 
-             section {
-                 /* margin-top: 10vh; */
-                 display: grid;
-                 width: 90%;
-                 /* margin-left: 25vh; */
-                 grid-template-columns: 1fr ;
-                 /* font-family: 'Times New Roman', Times, serif; */
-
+            section {
+             display: grid;
+             width: 100%;
+             grid-template-columns: 1fr ;
+         }
+    
+             .cont-name h1{
+                font-size: 25px;
+             }
+             .cont-name ul li{
+                font-size: 20px;
              }
 
 
