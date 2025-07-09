@@ -194,15 +194,12 @@
                 .nav-right-alt {
                     display: block;
                 }
-                 /* .header1 {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            } */
-                .cont{
+
+                .cont {
                     width: 80%;
                 }
-                .cont h1{
+
+                .cont h1 {
                     font-size: 200%;
                     width: 100%;
                 }
