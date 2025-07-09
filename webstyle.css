@@ -195,11 +195,13 @@
                     display: block;
                 }
                 .cont{
-                    width: 100%;
+                    width: 90%;
+                }
+                .cont h1{
+                    width: 90%;
                 }
 
                 .main-section {
-                    margin-top: 50px;
                     display: grid;
                     width: 80%;
                     margin-left: 10%;
@@ -221,9 +223,6 @@
                 }
 
                 footer {
-                    margin-top: 90px;
-                    width: 100%;
-                    min-height: 50vh;
                     display: grid;
                     grid-template-columns: 2fr;
                     padding-left: 20px;
