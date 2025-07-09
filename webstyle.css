@@ -195,9 +195,10 @@
                     display: block;
                 }
                 .cont{
-                    width: 90%;
+                    width: 80%;
                 }
                 .cont h1{
+                    font-size: 200%;
                     width: 90%;
                 }
 
