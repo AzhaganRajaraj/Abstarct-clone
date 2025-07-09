@@ -194,8 +194,13 @@
                 .nav-right-alt {
                     display: block;
                 }
+                 .header1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
                 .cont{
-                    width: 100%;
+                    width: 80%;
                 }
                 .cont h1{
                     font-size: 200%;
