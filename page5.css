@@ -224,9 +224,9 @@
            }
 
            .cont h1 {
-               font-size: 250%;
+               font-size: 200%;
                width: 100%;
-               height: 70px;
+               /* height: 70px; */
 
            }
 
@@ -237,13 +237,14 @@
 
            .cont-name {
                margin-left: 0;
-               width: 100%;
-               height: 60vh;
+               /* width: 100%;
+               height: 60vh; */
            }
 
            .cont-name h1 {
                font-size: 30px;
                margin-left: -30px;
+
 
            }
 
