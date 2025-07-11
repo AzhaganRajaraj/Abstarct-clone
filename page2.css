@@ -85,13 +85,13 @@
             color: #4C5FD5;
         }
 
-        .cont h6 {
+        /* .cont h6 {
             padding-left: 32vh;
             margin-top: -12px;
             font-family: 'Times New Roman', Times, serif;
             font-size: 9px;
             color: #191a1b;
-        }
+        } */
 
         .cont h1 {
             font-size: 40px;
@@ -121,10 +121,11 @@
             font-family: 'Times New Roman', Times, serif;
         }
 
-        .cont-name1{
+        .cont-name1 {
             width: 90%;
             padding-left: 3vh;
         }
+
         .cont-name1 h1 {
             font-family: 'Times New Roman', Times, serif;
             font-size: 25px;
@@ -196,6 +197,79 @@
 
             .nav-right-alt {
                 display: block;
+            }
+
+            .cont {
+                margin-left: -10vh;
+                width: 80%;
+                line-height: 20px;
+            }
+
+            .cont a {
+                margin-left: -6vh;
+                font-size: 15px;
+
+            }
+
+            .cont h1 {
+                font-size: 250%;
+                width: 100%;
+                height: 70px;
+
+            }
+
+            .cont p {
+                font-size: 20px;
+                line-height: 25px;
+            }
+
+
+
+            .cont-name1 h1 {
+                font-size: 30px;
+                margin-left: -30px;
+
+            }
+
+            .cont-name1 ul li {
+                font-size: 20px;
+                line-height: 5vh;
+                margin-left: 0;
+            }
+
+
+
+
+
+
+            footer {
+                display: grid;
+                grid-template-columns: 2fr;
+                padding-left: 20px;
+            }
+
+            .foot-left {
+                display: grid;
+                grid-template-columns: 2fr 2fr;
+                width: 70%;
+                padding: 20px;
+            }
+
+            .foot-item h2 {
+                font-size: 20px;
+            }
+
+            .foot-item ul li a {
+                font-size: 13px;
+            }
+
+            .foot-right {
+                width: 45%;
+                display: flex;
+                margin-top: 20px;
+                margin-left: 20px;
+                font-size: 13px;
+                line-height: 20px;
             }
 
         }

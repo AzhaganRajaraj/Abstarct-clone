@@ -212,4 +212,112 @@
                  display: block;
              }
 
+
+
+             section {
+                 display: grid;
+                 width: 100%;
+                 grid-template-columns: 1fr;
+                 /* padding-right: 20px; */
+                 margin-left: 0;
+             }
+
+
+             .cont {
+                 margin-left: -10vh;
+                 width: 100%;
+                 line-height: 20px;
+             }
+
+             .cont a {
+                 margin-left: -6vh;
+                 font-size: 15px;
+
+             }
+
+             .cont p {
+                 font-size: 20px;
+                 line-height: 25px;
+             }
+
+             .cont-name {
+                 margin-left: 0;
+             }
+
+             .cont-name h1 {
+                 font-size: 200%;
+                 width: 100%;
+                 height: 70px;
+
+             }
+
+             .cont-name ul li {
+                 font-size: 20px;
+                 line-height: 3vh;
+             }
+
+             .cont-name ul li a {
+                 font-size: 20px;
+             }
+
+             .cont-main {
+                 font-size: 200%;
+                 margin-left: 0;
+             }
+
+             .cont-main h2 {
+                 margin-left: 20px;
+             }
+
+             .cont-list h4 {
+                 font-size: 20px;
+                 margin-left: 10px;
+             }
+
+             .cont-list ul li {
+                 font-size: 20px;
+             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+             footer {
+                 display: grid;
+                 grid-template-columns: 2fr;
+                 padding-left: 20px;
+             }
+
+             .foot-left {
+                 display: grid;
+                 grid-template-columns: 2fr 2fr;
+                 width: 70%;
+                 padding: 20px;
+             }
+
+             .foot-item h2 {
+                 font-size: 20px;
+             }
+
+             .foot-item ul li a {
+                 font-size: 13px;
+             }
+
+             .foot-right {
+                 width: 45%;
+                 display: flex;
+                 margin-top: 20px;
+                 margin-left: 20px;
+                 font-size: 13px;
+                 line-height: 20px;
+             }
+
          }

@@ -69,7 +69,7 @@
          }
 
          .cont {
-             width: 50%;
+             width: 90%;
              margin-top: 40px;
          }
 
@@ -85,19 +85,19 @@
              color: #4C5FD5;
          }
 
-         .cont h6 {
+         /* .cont h6 {
              padding-left: 32vh;
              margin-top: -12px;
              font-family: 'Times New Roman', Times, serif;
              font-size: 9px;
              color: #191a1b;
-         }
+         } */
 
          .cont h1 {
-             font-size: 40px;
+             font-size: 50px;
              width: 80%;
              color: #000000;
-             letter-spacing: 1px;
+             letter-spacing: -1px;
              margin-top: -7px;
              margin-left: 50px;
              padding-left: 40px;
@@ -117,7 +117,7 @@
          section {
              margin-top: 10vh;
              display: grid;
-             width: 85%;
+             width: 80%;
              margin-left: 25vh;
              grid-template-columns: 1fr 1fr;
              font-family: 'Times New Roman', Times, serif;
@@ -250,21 +250,64 @@
                  display: block;
              }
 
-            section {
-             display: grid;
-             width: 100%;
-             grid-template-columns: 1fr ;
-         }
-    
-             .cont-name h1{
-                font-size: 25px;
+             section {
+                 display: grid;
+                 width: 100%;
+                 grid-template-columns: 1fr;
+                 /* padding-right: 20px; */
+                 margin-left: 0;
              }
-             .cont-name ul li{
+        
+
+             .cont {
+                margin-left: -10vh;
+                 width: 100%;
+                 line-height: 20px;
+             }
+             .cont a{
+                margin-left: -6vh;
+                font-size: 15px;
+                
+             }
+
+
+             .cont p {
+                 font-size: 20px;
+                 line-height: 25px;
+             }
+              .cont-name h1 {
+                 font-size: 200%;
+                 width: 100%;
+                 height: 70px;
+                 
+             }
+
+             .cont-name ul li {
+                 font-size: 20px;
+                 line-height: 3vh;
+             }
+             .cont-name ul li a{
+                font-size: 20px;
+             }
+             .cont-main{
+                font-size: 200%;
+                margin-left: 0;
+             }
+             .cont-main h2{
+                margin-left: 20px;
+             }
+             .cont-list h4{
+                font-size: 20px;
+                margin-left: 10px;
+             }
+             .cont-list ul li{
                 font-size: 20px;
              }
 
 
-
+             .cont-list{
+                margin-left: 0;
+             }
 
 
 
