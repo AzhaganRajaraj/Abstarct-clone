@@ -269,6 +269,10 @@
                 font-size: 15px;
                 
              }
+             .cont h1{
+                font-size: 200%;
+                width: 100%;
+             }
 
 
              .cont p {

@@ -63,7 +63,7 @@
          }
 
          .header1 {
-             height: 45vh;
+             height: 60vh;
              background-color: #dadbf1;
              display: flex;
          }
@@ -233,6 +233,10 @@
                  margin-left: -6vh;
                  font-size: 15px;
 
+             }
+             .cont h1{
+                font-size: 200%;
+                width: 100%;
              }
 
              .cont p {

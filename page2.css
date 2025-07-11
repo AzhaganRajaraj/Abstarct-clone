@@ -201,7 +201,7 @@
 
             .cont {
                 margin-left: -10vh;
-                width: 80%;
+                width: 100%;
                 line-height: 20px;
             }
 
@@ -212,7 +212,7 @@
             }
 
             .cont h1 {
-                font-size: 250%;
+                font-size: 200%;
                 width: 100%;
                 height: 70px;
 
@@ -236,9 +236,6 @@
                 line-height: 5vh;
                 margin-left: 0;
             }
-
-
-
 
 
 
