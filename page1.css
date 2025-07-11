@@ -241,7 +241,7 @@
 
 
 
-         @media screen and (max-width:400px) {
+         @media screen and (max-width:600px) {
              .nav-right {
                  display: none;
              }
