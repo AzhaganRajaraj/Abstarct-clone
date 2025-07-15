@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 98%;
+    height: 50px;
+    background-color: #1a2456;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin: 15px;
+    z-index: 10;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    background-color: #1a2456;
+    color: #efc2b3;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.nav-left a:hover {
+    color: #ff7952;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 13px;
+    gap: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.nav-right a {
+    text-decoration: none;
+    background-color: #1a2456;
+    color: #efc2b3;
+}
+
+.nav-right a:hover {
+    color: #ff7952;
+}
+
+.nav-right select {
+    border: none;
+    font-size: 13px;
+    background-color: transparent;
+    color: #efc2b3;
+}
+
+.nav-right select:hover {
+    color: #f0efed;
+
+}
+
+.nav-right select option {
+    background-color: transparent;
+    color: black;
+}
+
+.nav-right i {
+    color: #efc2b3;
+    padding-left: 15px;
+
+}
+
+header {
+    width: 100%;
+}
+
+.img h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -65vh;
+    color: #efc2b3;
+    line-height: -5px;
+    letter-spacing: 2px;
+}
+
+.img p {
+    padding-left: 35%;
+    color: #efc2b3;
+    line-height: -1vh;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-section {
+    width: 80%;
+    margin-left: 10%;
+    gap: 20px;
+    margin-top: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 1;
+
+
+}
+
+.pre {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: #ff7952;
+    padding: 5px 10px;
+}
+
+.pre a {
+    text-decoration: none;
+    color: black;
+}
+
+.cont {
+    width: 80%;
+}
+
+.cont h5 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a2456;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+
+}
+
+.cont p {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #1a2456;
+    line-height: -10px;
+
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.box1 {
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Everyday-Bundle-Mocks-final_1920x1281_crop_center.jpg.webp?v=1660013247");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+.box1:hover {
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Everyday-Bundle-Mocks-horizontal_1920x1281_crop_center.jpg.webp?v=1668446709");
+    background-size: 100% 80%;
+}
+
+
+
+.para {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.para a {
+    text-decoration: none;
+    /* font-size: 10px; */
+    height: 10vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1a2456;
+}
+
+
+
+.box2 {
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Packaging_TravelerClosedBracket1_Monogram_May20204517_d3899632-1a43-425f-a16a-1d5b968810c7_1920x1280_crop_center.jpg.webp?v=1623682377");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+.box2:hover {
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Consoles_TravelerBracket1_Monogram_May2020_4561_30a35bd4-01b4-44db-894a-e06162d8ab77_1920x1280_crop_center.jpg.webp?v=1668433146");
+}
+
+
+
+.box3 {
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Packaging_StudioClosedBracket1_Monogram_May20204507_548446cb-17c9-4fc2-8b12-ae1b1a308a7e_1920x1280_crop_center.jpg.webp?v=1623269261");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+.box3:hover {
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Consoles_StudioBracket1_Monogram_May2020_4558_53685b21-b09f-45b0-85a2-180d6acfafac_1920x1280_crop_center.jpg.webp?v=1668433210");
+}
+
+
+
+
+.box4 {
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Packaging_MasterClosedBracket1_Monogram_May20204494_1920x1280_crop_center.jpg.webp?v=1623682600");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+.box4:hover {
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Consoles_MasterBracket1_Monogram_May2020_4555_1920x1280_crop_center.jpg.webp?v=1668433240");
+}
+
+.name {
+    width: 70%;
+    display: flex;
+    align-items: end;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.name1 {
+    width: 70%;
+    height: 60vh;
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/files/Monogram_Keyboard_Multipad-v2_1920x1300_crop_center.png.webp?v=1711651403");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    margin-left: 30vh;
+}
+
+.name1:hover {
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/files/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1920x1080_crop_center.jpg.webp?v=1712087494");
+}
+
+.pre1 {
+    top: 10px;
+    position: absolute;
+    right: 0px;
+    padding: 5px 10px;
+    background-color: #ff7952;
+}
+
+.pre1 a {
+    text-decoration: none;
+    color: black;
+    /* font-size: 15px; */
+}
+
+.para1 {
+    width: 100%;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.para1 a {
+    text-decoration: none;
+    /* font-size: 10px; */
+    font-family: 'Courier New', Courier, monospace;
+    color: #1a2456;
+    margin-top: 20vh;
+    line-height: 10vh;
+}
+
+.cont1 {
+    width: 70%;
+}
+
+.cont1 h3 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a2456;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    margin-top: 20vh;
+    line-height: 10vh;
+
+}
+
+.cont1 p {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #1a2456;
+    /* line-height: 10vh; */
+    
+}
+
+.name2 {
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://monogramcc.com/static/fb6b98aa90bbce383e12a09c50936e96/3d304/shop-banner-module.jpg");
+    background-size: 100% 100%;
+    margin-top: 10vh;
+}
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.center h1{
+    margin-top: 50px;
+    font-size: 40px;
+    color: #1a2456;
+    letter-spacing: 2px;
+}
+.name2 p{
+    margin-left: 85vh;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #1a2456;
+    letter-spacing: 1px;
+}
